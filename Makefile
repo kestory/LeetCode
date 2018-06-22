@@ -1,5 +1,5 @@
 git:
 	git add .
 	git status
-	git commit -m "first hard"
+	git commit -m "765 forward…"
 	git push
