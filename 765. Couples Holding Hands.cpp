@@ -18,7 +18,7 @@ public:
 		int n = row.size(), result = 0;
 		for (int i = 0; i < n; i += 2) {
 			//int TheCouple = (row[i] % 2 == 0) ? row[i] + 1 : row[i] - 1;//[Without the trick]
-			int TheCouple = row[i] ^ 1;
+			int TheCouple = row[i] ^ 1;//would be used 3 times, save time
 			if (row[i + 1] == TheCouple)
 				continue;
 			else {
